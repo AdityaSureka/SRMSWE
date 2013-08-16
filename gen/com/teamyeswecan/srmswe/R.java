@@ -82,11 +82,13 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
-        public static final int directory_details_view=0x7f030001;
-        public static final int directory_main=0x7f030002;
+        public static final int activity_main=0x7f030001;
+        public static final int directory_details_view=0x7f030002;
+        public static final int directory_main=0x7f030003;
     }
     public static final class menu {
         public static final int home=0x7f070000;
+        public static final int main=0x7f070001;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -128,7 +130,7 @@ public final class R {
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Gallery1_android_galleryItemBackground com.teamyeswecan.srmswe:android_galleryItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gallery1_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
            </table>
            @see #Gallery1_android_galleryItemBackground
          */
@@ -136,9 +138,9 @@ public final class R {
             0x0101004c
         };
         /**
-          <p>This symbol is the offset where the {@link com.teamyeswecan.srmswe.R.attr#android_galleryItemBackground}
+          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
           attribute's value can be found in the {@link #Gallery1} array.
-          @attr name android:android_galleryItemBackground
+          @attr name android:galleryItemBackground
         */
         public static final int Gallery1_android_galleryItemBackground = 0;
     };
